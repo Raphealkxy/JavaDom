@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="RadioStyle" id="radiobutton">
+    <div id="div1" class="Block PaddingL" >
+        <input type="radio" name="Storage" id="model1" class="date" value="year" checked="checked" />
+        <label for="model1">年</label>
+        <input type="radio" name="Storage" id="model2" class="date"  value="month" />
+        <label for="model2">周</label>
+        <input type="radio" name="Storage" id="model3" class="date"  value="day" />
+        <label for="model3">日</label>
+    </div>
+
+    <div id="div2">
+        <p id="test1">123</p>
+        <p id="test2">werr</p>
+    </div>
+
+    <a id="pic1" href="../image/test2.jpg" onclick="showpic(this);return false;" >更换图片</a>
+    <a id="pic2" href="../image/test2.jpg" onclick="showpic1(this)" target="_blank" >换回图片</a>
+   <hr>
+    <img id="placeholder" src="../image/test.jpg" alt="my image gallery" style="width: 400px;height: 500px">
+    <hr>
+    <button onclick="createNewWindows()">创建新窗口</button>
+</div>
+
+<script type="text/javascript" src="../js/news.js"></script>
+</body>
+</html>
